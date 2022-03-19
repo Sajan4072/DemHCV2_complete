@@ -1,0 +1,12 @@
+1..
+super user sajan
+x
+
+
+2..conda activate demhc2 
+python app.py 
+
+
+3
+/login
+..credentials of first 
