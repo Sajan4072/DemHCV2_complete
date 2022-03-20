@@ -10,3 +10,13 @@ python app.py
 3
 /login
 ..credentials of first 
+
+4..
+login page adding it 
+
+
+
+5..signup test
+
+
+6..

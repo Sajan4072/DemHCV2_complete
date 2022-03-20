@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '0q%_w$%ysprytbnz%%9_(onevk$8-151sa@#)$ri19hk+ie36a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['https://diseasepredictor.herokuapp.com/']
 
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'loginapp.apps.LoginappConfig',
 ]
 
 MIDDLEWARE = [

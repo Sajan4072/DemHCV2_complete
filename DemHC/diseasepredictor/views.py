@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
+from django.contrib.auth import authenticate,login,logout
+from django.urls import reverse
 
 
 def bmi(request):
@@ -229,5 +231,5 @@ Handling 404 error pages.
 
 def handler404(request):
     return render(request, "404.html", status=404)
-    
+
 
