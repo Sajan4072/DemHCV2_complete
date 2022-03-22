@@ -25,5 +25,6 @@ urlpatterns = [
     path('diabetes', views.diabetes, name="diabetes"),
     path('breast', views.breast, name="breast"),
     path('bmi', views.bmi, name="bmi"),
-    path('',include('loginapp.urls'))
+    path('',include('loginapp.urls')),
+    
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
